@@ -94,6 +94,7 @@ Partial Class LoginForm
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(160, 29)
         Me.TextBox2.TabIndex = 5
+        Me.TextBox2.UseSystemPasswordChar = True
         '
         'btnExit
         '

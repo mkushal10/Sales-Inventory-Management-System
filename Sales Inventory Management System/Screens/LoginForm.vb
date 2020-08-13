@@ -1,7 +1,14 @@
 ﻿Public Class LoginForm
     Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
         If (IsFormValid()) Then
-
+            qr = "Select * from UserLogin where UserName='" & TextBox1.Text & "'and Password='" & TextBox2.Text & "'and UserType='" & ComboBox1.Text & "'"
+            ds = SearchData(qr)
+            If (ds.Tables(0).Rows.Count > 0) Then
+                DashboardForm.Show()
+                Me.Close()
+            Else
+                MsgBox("Username and Password Incorrect!", MsgBoxStyle.Critical)
+            End If
         End If
     End Sub
 
