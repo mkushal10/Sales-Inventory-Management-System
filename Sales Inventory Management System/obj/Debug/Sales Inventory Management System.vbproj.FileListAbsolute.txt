@@ -10,3 +10,4 @@ C:\Users\Kushal Neupane\source\repos\Sales Inventory Management System\Sales Inv
 C:\Users\Kushal Neupane\source\repos\Sales Inventory Management System\Sales Inventory Management System\obj\Debug\Sales Inventory Management System.exe
 C:\Users\Kushal Neupane\source\repos\Sales Inventory Management System\Sales Inventory Management System\obj\Debug\Sales Inventory Management System.xml
 C:\Users\Kushal Neupane\source\repos\Sales Inventory Management System\Sales Inventory Management System\obj\Debug\Sales Inventory Management System.pdb
+C:\Users\Kushal Neupane\source\repos\Sales Inventory Management System\Sales Inventory Management System\obj\Debug\Sales_Inventory_Management_System.Splash.resources
